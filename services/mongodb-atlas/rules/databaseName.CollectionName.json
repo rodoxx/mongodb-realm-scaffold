@@ -1,0 +1,32 @@
+{
+    "collection": "collectionName",
+    "database": "databaseName",
+    "id": "60185d39c7864e624f86838a",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ],
+    "schema": {
+        "bsonType": "object",
+        "properties": {
+            "_id": {
+                "bsonType": "objectId"
+            },
+            "name": {
+                "bsonType": "string"
+            }
+        },
+        "required": [
+            "_id",
+            "name"
+        ],
+        "title": "Logs"
+    }
+}

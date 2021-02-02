@@ -1,0 +1,14 @@
+{
+    "app_id": "app_id",
+    "config_version": 20200603,
+    "name": "app_nam",
+    "location": "IE",
+    "deployment_model": "GLOBAL",
+    "security": {},
+    "custom_user_data_config": {
+        "enabled": false
+    },
+    "sync": {
+        "development_mode_enabled": false
+    }
+}
